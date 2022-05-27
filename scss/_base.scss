@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 12px 32px;
+    color: $white !important;
+}
+
+.go-top {
+    position: fixed;
+    bottom: 250px;
+    right: 48px;
+    width: 71px;
+    height: 71px;
+    z-index: 10;
+    border: none;
+    outline: none;
+    background-image: url(../images/goToTop.svg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 18px;
+}
